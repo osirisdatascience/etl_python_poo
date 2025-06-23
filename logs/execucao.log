@@ -1,0 +1,78 @@
+2025-06-23 12:25:09,936 - INFO - \U0001f680 Iniciando tarefa: Extrair
+2025-06-23 12:25:10,421 - INFO - \u2705 Tarefa Extrair finalizada com sucesso.
+2025-06-23 12:25:10,422 - INFO - \U0001f504 Iniciando tarefa: Transformar
+2025-06-23 12:25:10,496 - INFO - \u2705 Tarefa Transformar finalizada com sucesso.
+2025-06-23 12:25:10,496 - INFO - \U0001f4e6 Iniciando tarefa: Carregar
+2025-06-23 12:25:10,567 - INFO - \u2705 Tarefa Carregar finalizada com sucesso.
+2025-06-23 16:43:18,754 - INFO - Iniciando tarefa: Extrair
+2025-06-23 16:43:19,165 - INFO - \u2705 Tarefa Extrair finalizada com sucesso.
+2025-06-23 16:43:19,166 - INFO - \U0001f504 Iniciando tarefa: Transformar
+2025-06-23 16:43:19,222 - INFO - \u2705 Tarefa Transformar finalizada com sucesso.
+2025-06-23 16:43:19,223 - INFO - \U0001f4e6 Iniciando tarefa: Carregar
+2025-06-23 16:43:19,268 - INFO - \u2705 Tarefa Carregar finalizada com sucesso.
+2025-06-23 18:14:18,794 - INFO - Iniciando tarefa: Extrair
+2025-06-23 18:14:19,129 - INFO - Erro ao extrair (gerar) dados Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.
+2025-06-23 18:14:19,129 - INFO - Iniciando tarefa: Transformar
+2025-06-23 18:14:19,129 - ERROR - Erro na tarefa Transformar: Erro ao manipular arquivo input_file.csv: Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.
+2025-06-23 18:14:26,951 - INFO - Iniciando tarefa: Extrair
+2025-06-23 18:14:27,298 - INFO - Erro ao extrair (gerar) dados Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.
+2025-06-23 18:14:27,298 - INFO - Iniciando tarefa: Transformar
+2025-06-23 18:14:27,298 - ERROR - Erro na tarefa Transformar: Erro ao manipular arquivo input_file.csv: Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.
+2025-06-23 18:14:36,114 - INFO - Iniciando tarefa: Extrair
+2025-06-23 18:14:36,455 - INFO - Erro ao extrair (gerar) dados Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.
+2025-06-23 18:14:36,456 - INFO - Iniciando tarefa: Transformar
+2025-06-23 18:14:36,456 - ERROR - Erro na tarefa Transformar: Erro ao manipular arquivo input_file.csv: Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.
+2025-06-23 18:14:57,123 - INFO - Iniciando tarefa: Extrair
+2025-06-23 18:14:57,449 - INFO - Erro ao extrair (gerar) dados Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.
+2025-06-23 18:14:57,449 - INFO - Iniciando tarefa: Transformar
+2025-06-23 18:14:57,449 - ERROR - Erro na tarefa Transformar: Erro ao manipular arquivo input_file.csv: Missing optional dependency 'pyarrow'.  Use pip or conda to install pyarrow.
+2025-06-23 18:16:41,895 - INFO - Iniciando tarefa: Extrair
+2025-06-23 18:16:42,335 - INFO - Erro ao extrair (gerar) dados write_feather() got an unexpected keyword argument 'index'
+2025-06-23 18:16:42,335 - INFO - Iniciando tarefa: Transformar
+2025-06-23 18:16:42,335 - ERROR - Erro na tarefa Transformar: Erro ao manipular arquivo input_file.csv: [Errno 2] No such file or directory: 'data/input_file.feather'
+2025-06-23 18:17:09,340 - INFO - Iniciando tarefa: Extrair
+2025-06-23 18:17:09,685 - INFO - Erro ao extrair (gerar) dados write_feather() got an unexpected keyword argument 'index'
+2025-06-23 18:17:09,685 - INFO - Iniciando tarefa: Transformar
+2025-06-23 18:17:09,685 - ERROR - Erro na tarefa Transformar: Erro ao manipular arquivo input_file.csv: File is too small to be a well-formed file
+2025-06-23 18:18:50,546 - INFO - Iniciando tarefa: Extrair
+2025-06-23 18:18:50,928 - INFO - Erro ao extrair (gerar) dados write_feather() got an unexpected keyword argument 'index'
+2025-06-23 18:18:50,933 - INFO - Iniciando tarefa: Transformar
+2025-06-23 18:18:50,935 - ERROR - Erro na tarefa Transformar: Erro ao manipular arquivo input_file.csv: File is too small to be a well-formed file
+2025-06-23 18:19:31,599 - INFO - Iniciando tarefa: Extrair
+2025-06-23 18:19:32,003 - INFO - Erro ao extrair (gerar) dados write_feather() got an unexpected keyword argument 'index'
+2025-06-23 18:19:32,004 - INFO - Iniciando tarefa: Transformar
+2025-06-23 18:19:32,005 - ERROR - Erro na tarefa Transformar: Erro ao manipular arquivo raw_file.csv: File is too small to be a well-formed file
+2025-06-23 18:21:58,300 - INFO - Iniciando tarefa: Extrair
+2025-06-23 18:21:58,640 - INFO - Tarefa Extrair finalizada sem erros.
+2025-06-23 18:21:58,640 - INFO - Iniciando tarefa: Transformar
+2025-06-23 18:21:58,687 - ERROR - Erro na tarefa Transformar: Erro ao manipular arquivo raw_file.csv: 'country'
+2025-06-23 18:22:52,177 - INFO - Iniciando tarefa: Extrair
+2025-06-23 18:22:52,546 - INFO - Tarefa Extrair finalizada sem erros.
+2025-06-23 18:22:52,555 - INFO - Iniciando tarefa: Transformar
+2025-06-23 18:22:52,575 - ERROR - Erro na tarefa Transformar: Erro ao manipular arquivo raw_file.feather: 'DataFrame' object has no attribute 'clomuns'
+2025-06-23 18:23:20,989 - INFO - Iniciando tarefa: Extrair
+2025-06-23 18:23:21,359 - INFO - Tarefa Extrair finalizada sem erros.
+2025-06-23 18:23:21,361 - INFO - Iniciando tarefa: Transformar
+2025-06-23 18:23:21,389 - INFO - Index(['id', 'nome', 'email', 'pais', 'aniversario'], dtype='object')
+2025-06-23 18:23:21,391 - ERROR - Erro na tarefa Transformar: Erro ao manipular arquivo raw_file.feather: 'country'
+2025-06-23 18:23:55,858 - INFO - Iniciando tarefa: Extrair
+2025-06-23 18:23:56,242 - INFO - Tarefa Extrair finalizada sem erros.
+2025-06-23 18:23:56,242 - INFO - Iniciando tarefa: Transformar
+2025-06-23 18:23:56,272 - INFO - Index(['id', 'nome', 'email', 'pais', 'aniversario'], dtype='object')
+2025-06-23 18:23:56,295 - INFO - Tarefa Transformar finalizada sem erros.
+2025-06-23 18:23:56,295 - INFO - Iniciando tarefa: Carregar
+2025-06-23 18:23:56,352 - INFO - Tarefa Carregar finalizada sem erros.
+2025-06-23 18:25:04,103 - INFO - Iniciando tarefa: Extrair
+2025-06-23 18:25:04,457 - INFO - Tarefa Extrair finalizada sem erros.
+2025-06-23 18:25:04,467 - INFO - Iniciando tarefa: Transformar
+2025-06-23 18:25:04,491 - INFO - Index(['id', 'nome', 'email', 'pais', 'aniversario'], dtype='object')
+2025-06-23 18:25:04,546 - INFO - Tarefa Transformar finalizada sem erros.
+2025-06-23 18:25:04,546 - INFO - Iniciando tarefa: Carregar
+2025-06-23 18:25:04,603 - INFO - Tarefa Carregar finalizada sem erros.
+2025-06-23 19:00:19,650 - INFO - Iniciando tarefa: Extract
+2025-06-23 19:00:21,137 - INFO - Tarefa Extract finalizada sem erros.
+2025-06-23 19:00:21,139 - INFO - Iniciando tarefa: Transform
+2025-06-23 19:00:21,187 - INFO - Index(['id', 'nome', 'email', 'pais', 'aniversario'], dtype='object')
+2025-06-23 19:00:21,394 - INFO - Tarefa Transform finalizada sem erros.
+2025-06-23 19:00:21,395 - INFO - Iniciando tarefa: load
+2025-06-23 19:00:21,537 - INFO - Tarefa load finalizada sem erros.

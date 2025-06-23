@@ -1,0 +1,3 @@
+
+class ETLPipelineError(Exception):
+    pass
